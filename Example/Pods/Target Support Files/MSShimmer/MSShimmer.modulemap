@@ -1,0 +1,6 @@
+framework module MSShimmer {
+  umbrella header "MSShimmer-umbrella.h"
+
+  export *
+  module * { export * }
+}

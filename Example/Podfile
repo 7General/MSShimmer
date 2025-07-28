@@ -1,0 +1,11 @@
+
+inhibit_all_warnings!
+install! 'cocoapods',
+:generate_multiple_pod_projects => true
+use_frameworks!:linkage => :static
+platform :ios, '12.0'
+
+target 'MSShimmer_Example' do
+  pod 'MSShimmer', :path => '../'
+  pod 'SnapKit'
+end

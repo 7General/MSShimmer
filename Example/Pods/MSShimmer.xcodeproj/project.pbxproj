@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CADE1DD2FE08E299E8830851151F690 /* MSShimmerDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6A57C084AA6F0797730044A00886E2 /* MSShimmerDirection.swift */; };
+		2D58F70E5ABD9F9CB6CECF1B073073C3 /* MSShimmer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AB66299ADC47822297286F6C3E5DAC9 /* MSShimmer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34F5E743BEF96ADD61F326380DE8CE5F /* MSShimmerPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69AA5B31C68CFF65AAA9F4B9BEA151D /* MSShimmerPoint.swift */; };
+		5242215C20001A3DB84D3B76EE83A3B5 /* MSShimmerBitmapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827580AEFC2215C65BB944DD1B6C3932 /* MSShimmerBitmapView.swift */; };
+		5676F20ADA528D695EF0DA56912795C5 /* MSShimmerGradientLayer+shimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A573CF89AC16A49716BFEFC30F7B07EB /* MSShimmerGradientLayer+shimmer.swift */; };
+		831E93F70BFCAF823686C5B07B13D2DC /* MSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0608D65609B1AB74BE914DD615384AF /* MSView.swift */; };
+		8CBFD837DFCBCCA91F59A16DE39BC45D /* MSShimmerContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CA60A8375E6310F33EF8CB3C128380 /* MSShimmerContainerView.swift */; };
+		A189AE1488C8385E429494AF2A2C3B38 /* MSShimmerAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218B63F22709585F714A47BA43671709 /* MSShimmerAppearance.swift */; };
+		A2AA53920C18AB3474E117E51A78C51A /* MSShimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E999563057C0DF03CA55985AA402F28 /* MSShimmerView.swift */; };
+		A9A5785DDB92D917CAC3F4EE1E43F522 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9088E528C3756F8C50F3C1013DBBF6D0 /* Foundation.framework */; };
+		B65D5A89E8E64C0E6241B2798AA10EC7 /* MSShimmerSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6567D5C36C80DAD6F1BE6B0A7B804519 /* MSShimmerSource.swift */; };
+		E654852CFE154DDD00F1E24443485CBC /* MSShimmer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF04FD444B466725031F6ADC387CDA0D /* MSShimmer-dummy.m */; };
+		F9D7B5B7176A4D289F3EC31CA9BED9DB /* MSShimmerContextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1A160790F2232FA3E50B9E6F1FE35B /* MSShimmerContextView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03D9286AAB2892264342626D88941CB0 /* MSShimmer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSShimmer-prefix.pch"; sourceTree = "<group>"; };
+		0C28F11C04E7364685D65402105E69A9 /* MSShimmer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSShimmer.debug.xcconfig; sourceTree = "<group>"; };
+		1C1A160790F2232FA3E50B9E6F1FE35B /* MSShimmerContextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MSShimmerContextView.swift; sourceTree = "<group>"; };
+		1D6A57C084AA6F0797730044A00886E2 /* MSShimmerDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSShimmerDirection.swift; path = MSShimmer/Classes/MSShimmerDirection.swift; sourceTree = "<group>"; };
+		218B63F22709585F714A47BA43671709 /* MSShimmerAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSShimmerAppearance.swift; path = MSShimmer/Classes/MSShimmerAppearance.swift; sourceTree = "<group>"; };
+		22CA60A8375E6310F33EF8CB3C128380 /* MSShimmerContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSShimmerContainerView.swift; path = MSShimmer/Classes/MSShimmerContainerView.swift; sourceTree = "<group>"; };
+		2AB66299ADC47822297286F6C3E5DAC9 /* MSShimmer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSShimmer-umbrella.h"; sourceTree = "<group>"; };
+		5BB3761B8D94106EC64930A09018CC93 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5E313A071DF1A85FB8FB083BB7A2F491 /* MSShimmer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MSShimmer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5E999563057C0DF03CA55985AA402F28 /* MSShimmerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSShimmerView.swift; path = MSShimmer/Classes/MSShimmerView.swift; sourceTree = "<group>"; };
+		6567D5C36C80DAD6F1BE6B0A7B804519 /* MSShimmerSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSShimmerSource.swift; path = MSShimmer/Classes/MSShimmerSource.swift; sourceTree = "<group>"; };
+		72EAB9BCA1E23B080F61B95AFF063923 /* MSShimmer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSShimmer.release.xcconfig; sourceTree = "<group>"; };
+		827580AEFC2215C65BB944DD1B6C3932 /* MSShimmerBitmapView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MSShimmerBitmapView.swift; sourceTree = "<group>"; };
+		9088E528C3756F8C50F3C1013DBBF6D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A573CF89AC16A49716BFEFC30F7B07EB /* MSShimmerGradientLayer+shimmer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MSShimmerGradientLayer+shimmer.swift"; path = "MSShimmer/Classes/MSShimmerGradientLayer+shimmer.swift"; sourceTree = "<group>"; };
+		AE9CBEF0A00D60F18D9E606B5AAD6A56 /* MSShimmer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MSShimmer.modulemap; sourceTree = "<group>"; };
+		B498462BD67D1C457622738FA9862E34 /* MSShimmer */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MSShimmer; path = MSShimmer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B97196D63538737B8E38924092266552 /* MSShimmer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MSShimmer-Info.plist"; sourceTree = "<group>"; };
+		C0608D65609B1AB74BE914DD615384AF /* MSView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MSView.swift; sourceTree = "<group>"; };
+		CE8D936B83B63067F8A552B9D0600421 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DF04FD444B466725031F6ADC387CDA0D /* MSShimmer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MSShimmer-dummy.m"; sourceTree = "<group>"; };
+		E69AA5B31C68CFF65AAA9F4B9BEA151D /* MSShimmerPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSShimmerPoint.swift; path = MSShimmer/Classes/MSShimmerPoint.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83FA044803D82C0CFF5DC732298FC3FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9A5785DDB92D917CAC3F4EE1E43F522 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09FD3C21783DE2293F6D8A029AFADC21 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9088E528C3756F8C50F3C1013DBBF6D0 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		0C981D37A03C3089D86969E7E748A85E /* MSShimmer */ = {
+			isa = PBXGroup;
+			children = (
+				218B63F22709585F714A47BA43671709 /* MSShimmerAppearance.swift */,
+				22CA60A8375E6310F33EF8CB3C128380 /* MSShimmerContainerView.swift */,
+				1D6A57C084AA6F0797730044A00886E2 /* MSShimmerDirection.swift */,
+				A573CF89AC16A49716BFEFC30F7B07EB /* MSShimmerGradientLayer+shimmer.swift */,
+				E69AA5B31C68CFF65AAA9F4B9BEA151D /* MSShimmerPoint.swift */,
+				6567D5C36C80DAD6F1BE6B0A7B804519 /* MSShimmerSource.swift */,
+				5E999563057C0DF03CA55985AA402F28 /* MSShimmerView.swift */,
+				2EB1B8FF66E405C41459A62D84F0B051 /* bitmap */,
+				52704253354C252C16005E5B6489F5F2 /* Pod */,
+				D54BD76CD712A96219EB5A36C49CEC31 /* Support Files */,
+			);
+			name = MSShimmer;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		15C84D3A809900855061F024B99C43AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09FD3C21783DE2293F6D8A029AFADC21 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2EB1B8FF66E405C41459A62D84F0B051 /* bitmap */ = {
+			isa = PBXGroup;
+			children = (
+				827580AEFC2215C65BB944DD1B6C3932 /* MSShimmerBitmapView.swift */,
+				1C1A160790F2232FA3E50B9E6F1FE35B /* MSShimmerContextView.swift */,
+				C0608D65609B1AB74BE914DD615384AF /* MSView.swift */,
+			);
+			name = bitmap;
+			path = MSShimmer/Classes/bitmap;
+			sourceTree = "<group>";
+		};
+		52704253354C252C16005E5B6489F5F2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CE8D936B83B63067F8A552B9D0600421 /* LICENSE */,
+				5E313A071DF1A85FB8FB083BB7A2F491 /* MSShimmer.podspec */,
+				5BB3761B8D94106EC64930A09018CC93 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5F6AF256F215B98514D94C19AF7A5A4F = {
+			isa = PBXGroup;
+			children = (
+				15C84D3A809900855061F024B99C43AB /* Frameworks */,
+				0C981D37A03C3089D86969E7E748A85E /* MSShimmer */,
+				E5E1E1D57FB178205DCD786ABE138A00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D54BD76CD712A96219EB5A36C49CEC31 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE9CBEF0A00D60F18D9E606B5AAD6A56 /* MSShimmer.modulemap */,
+				DF04FD444B466725031F6ADC387CDA0D /* MSShimmer-dummy.m */,
+				B97196D63538737B8E38924092266552 /* MSShimmer-Info.plist */,
+				03D9286AAB2892264342626D88941CB0 /* MSShimmer-prefix.pch */,
+				2AB66299ADC47822297286F6C3E5DAC9 /* MSShimmer-umbrella.h */,
+				0C28F11C04E7364685D65402105E69A9 /* MSShimmer.debug.xcconfig */,
+				72EAB9BCA1E23B080F61B95AFF063923 /* MSShimmer.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MSShimmer";
+			sourceTree = "<group>";
+		};
+		E5E1E1D57FB178205DCD786ABE138A00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B498462BD67D1C457622738FA9862E34 /* MSShimmer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C4ADC277395D62F7F60AB1F8AE52A976 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D58F70E5ABD9F9CB6CECF1B073073C3 /* MSShimmer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		806A4578ADB1AF49D3193DEC4A645005 /* MSShimmer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31B29C87E01F05C5C69DD0009E59FBE0 /* Build configuration list for PBXNativeTarget "MSShimmer" */;
+			buildPhases = (
+				C4ADC277395D62F7F60AB1F8AE52A976 /* Headers */,
+				10FF71B16FEF6014DD0FF82D074857DD /* Sources */,
+				83FA044803D82C0CFF5DC732298FC3FC /* Frameworks */,
+				7F25D1B89ED58EA0089F8E3C8B8A4AB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MSShimmer;
+			productName = MSShimmer;
+			productReference = B498462BD67D1C457622738FA9862E34 /* MSShimmer */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25A98B328978A74084CD343E4D71BE6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = B10A18687C83671F221F389503ADF8ED /* Build configuration list for PBXProject "MSShimmer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 5F6AF256F215B98514D94C19AF7A5A4F;
+			productRefGroup = E5E1E1D57FB178205DCD786ABE138A00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				806A4578ADB1AF49D3193DEC4A645005 /* MSShimmer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F25D1B89ED58EA0089F8E3C8B8A4AB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10FF71B16FEF6014DD0FF82D074857DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E654852CFE154DDD00F1E24443485CBC /* MSShimmer-dummy.m in Sources */,
+				A189AE1488C8385E429494AF2A2C3B38 /* MSShimmerAppearance.swift in Sources */,
+				5242215C20001A3DB84D3B76EE83A3B5 /* MSShimmerBitmapView.swift in Sources */,
+				8CBFD837DFCBCCA91F59A16DE39BC45D /* MSShimmerContainerView.swift in Sources */,
+				F9D7B5B7176A4D289F3EC31CA9BED9DB /* MSShimmerContextView.swift in Sources */,
+				0CADE1DD2FE08E299E8830851151F690 /* MSShimmerDirection.swift in Sources */,
+				5676F20ADA528D695EF0DA56912795C5 /* MSShimmerGradientLayer+shimmer.swift in Sources */,
+				34F5E743BEF96ADD61F326380DE8CE5F /* MSShimmerPoint.swift in Sources */,
+				B65D5A89E8E64C0E6241B2798AA10EC7 /* MSShimmerSource.swift in Sources */,
+				A2AA53920C18AB3474E117E51A78C51A /* MSShimmerView.swift in Sources */,
+				831E93F70BFCAF823686C5B07B13D2DC /* MSView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		28C5F419FAA57A7B61DDE5B3E814484F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72EAB9BCA1E23B080F61B95AFF063923 /* MSShimmer.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MSShimmer/MSShimmer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MSShimmer/MSShimmer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/MSShimmer/MSShimmer.modulemap";
+				PRODUCT_MODULE_NAME = MSShimmer;
+				PRODUCT_NAME = MSShimmer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3D3D7E5E40B70F58FD706DED1AE86A71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C28F11C04E7364685D65402105E69A9 /* MSShimmer.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MSShimmer/MSShimmer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MSShimmer/MSShimmer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/MSShimmer/MSShimmer.modulemap";
+				PRODUCT_MODULE_NAME = MSShimmer;
+				PRODUCT_NAME = MSShimmer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EF03919C79907795BC0919CB20DAD84F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EF158318494B827AABA2030CEA3D512D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31B29C87E01F05C5C69DD0009E59FBE0 /* Build configuration list for PBXNativeTarget "MSShimmer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D3D7E5E40B70F58FD706DED1AE86A71 /* Debug */,
+				28C5F419FAA57A7B61DDE5B3E814484F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B10A18687C83671F221F389503ADF8ED /* Build configuration list for PBXProject "MSShimmer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF158318494B827AABA2030CEA3D512D /* Debug */,
+				EF03919C79907795BC0919CB20DAD84F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25A98B328978A74084CD343E4D71BE6B /* Project object */;
+}

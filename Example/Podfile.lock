@@ -1,0 +1,23 @@
+PODS:
+  - MSShimmer (1.0.131)
+  - SnapKit (5.7.1)
+
+DEPENDENCIES:
+  - MSShimmer (from `../`)
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
+
+EXTERNAL SOURCES:
+  MSShimmer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MSShimmer: 1ecc99c52aaf6c0be5a43312a5041ed28c07c78b
+  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
+
+PODFILE CHECKSUM: 3d709244109c624fd22812ee80efe863618aa5de
+
+COCOAPODS: 1.14.3
