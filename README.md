@@ -132,29 +132,7 @@ shimmerContainer.stop()
 1. 让你的 ViewController 或自定义 view 遵循 `MSShimmerSource` 协议。
 2. 实现 `shimmerContainers` 属性，返回所有需要 shimmer 效果的容器数组。
 
-### 典型用法示例
-```swift
-import MSShimmer
-
-// 让你的页面遵循协议
-extension ViewController: MSShimmerSource {
-    var shimmerContainers: [MSShimmerContainerView] {
-        return [
-            shimmer1,
-            shimmer2,
-            shimmer3
-        ]
-    }
-}
-
-// 启动所有 shimmer 动画
-shimmerContainers.forEach { $0.start() }
-
-// 停止所有 shimmer 动画
-shimmerContainers.forEach { $0.stop() }
-```
-
-#### 简单实例
+### 简单实例
 
 ```swift
 import UIKit
