@@ -169,8 +169,8 @@ class ViewController: UIViewController, MSShimmerSource {
             make.width.equalTo(200)
             make.height.equalTo(20)
         }
-        // 批量启动 shimmer 动画
-        shimmerContainers.forEach { $0.start() }
+        // 推荐用法：批量启动 shimmer 动画
+        self.start()
     }
 
     // 实现协议，统一管理 shimmer 容器
