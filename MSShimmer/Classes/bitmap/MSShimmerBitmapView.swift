@@ -8,7 +8,7 @@
 import UIKit
 
 
-// 空白容器页面
+// 空白容器页面bitmap
 open class MSShimmerBitmapView: MSShimmerContainerView {
     open override func setupUI() {
         
