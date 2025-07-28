@@ -118,6 +118,109 @@ shimmerContainer.stop()
 - `shimmerColors` - 骨架屏动画颜色数组
 - `duration` - 动画持续时间（默认：1.5秒）
 
+---
+
+## 🧩 批量管理 shimmer 容器（MSShimmerSource 协议）
+
+有时页面上有多个骨架屏容器需要统一管理，推荐实现 `MSShimmerSource` 协议，集中批量控制 shimmer 动画。
+
+### 协议作用
+- 统一管理页面上所有 shimmer 容器，便于批量启动/停止动画和统一配置。
+- 新增 shimmer 容器时，只需在数组中添加即可，结构清晰，易于维护。
+
+### 如何实现
+1. 让你的 ViewController 或自定义 view 遵循 `MSShimmerSource` 协议。
+2. 实现 `shimmerContainers` 属性，返回所有需要 shimmer 效果的容器数组。
+
+### 典型用法示例
+```swift
+import MSShimmer
+
+// 让你的页面遵循协议
+extension ViewController: MSShimmerSource {
+    var shimmerContainers: [MSShimmerContainerView] {
+        return [
+            shimmer1,
+            shimmer2,
+            shimmer3
+        ]
+    }
+}
+
+// 启动所有 shimmer 动画
+shimmerContainers.forEach { $0.start() }
+
+// 停止所有 shimmer 动画
+shimmerContainers.forEach { $0.stop() }
+```
+
+#### 简单实例
+
+```swift
+import UIKit
+import MSShimmer
+import SnapKit
+
+class ViewController: UIViewController, MSShimmerSource {
+    // 定义多个 shimmer 容器
+    let shimmer1 = MSShimmerContainerView()
+    let shimmer2 = MSShimmerContainerView()
+    let shimmer3 = MSShimmerContainerView()
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        view.addSubview(shimmer1)
+        view.addSubview(shimmer2)
+        view.addSubview(shimmer3)
+        // 使用 SnapKit 进行约束布局
+        shimmer1.snp.makeConstraints { make in
+            make.top.equalToSuperview().offset(100)
+            make.centerX.equalToSuperview()
+            make.width.equalTo(200)
+            make.height.equalTo(20)
+        }
+        shimmer2.snp.makeConstraints { make in
+            make.top.equalTo(shimmer1.snp.bottom).offset(20)
+            make.centerX.equalToSuperview()
+            make.width.equalTo(200)
+            make.height.equalTo(20)
+        }
+        shimmer3.snp.makeConstraints { make in
+            make.top.equalTo(shimmer2.snp.bottom).offset(20)
+            make.centerX.equalToSuperview()
+            make.width.equalTo(200)
+            make.height.equalTo(20)
+        }
+        // 批量启动 shimmer 动画
+        shimmerContainers.forEach { $0.start() }
+    }
+
+    // 实现协议，统一管理 shimmer 容器
+    var shimmerContainers: [MSShimmerContainerView] {
+        return [shimmer1, shimmer2, shimmer3]
+    }
+}
+```
+
+> 你也可以将自定义 view（如嵌套容器）加入 shimmerContainers，实现复杂骨架屏布局的批量管理。
+
+> 实现 MSShimmerSource 协议后，可以直接调用 `self.start()` 和 `self.stop()`，批量启动或停止 shimmer 动画，无需手动遍历 shimmerContainers：
+
+```swift
+// 启动所有 shimmer 动画
+self.start()
+
+// 停止所有 shimmer 动画
+self.stop()
+```
+
+### 适用场景
+- 页面有多个 shimmer 容器需要统一控制时
+- 需要批量启动/停止 shimmer 动画时
+- 复杂嵌套骨架屏场景
+
+---
+
 ## 🎨 自定义示例
 
 ### 自定义颜色
