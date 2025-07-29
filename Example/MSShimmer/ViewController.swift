@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("==================ViewController")
-        
+        // 添加注释
 //        MSShimmerAppearance.instance.shimmerCornerRadius = 6
 //        MSShimmerAppearance.instance.duration = 1.5
 //        
