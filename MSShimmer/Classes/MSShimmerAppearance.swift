@@ -31,4 +31,11 @@ public class MSShimmerAppearance: NSObject {
      * 骨架动画执行时间
      */
     public var duration: CFTimeInterval = 1.5
+    
+    /**
+     * 骨架屏默认高度
+     */
+    public var defaultShimmerHeight: CGFloat = 12
+    
+    public var shimmerCount: Int = 5
 }

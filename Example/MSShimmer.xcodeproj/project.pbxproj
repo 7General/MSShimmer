@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		21776DD44DEEF49D5F355872 /* Pods_MSShimmer_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B9FF94E8E1C6E3FE968369D /* Pods_MSShimmer_Example.framework */; };
+		250F6B372E39B0DE00A6B3E5 /* OPBTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250F6B362E39B0DE00A6B3E5 /* OPBTableViewController.swift */; };
+		250F6B392E39B29200A6B3E5 /* OPBTableContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250F6B382E39B29200A6B3E5 /* OPBTableContentCell.swift */; };
+		250F6B3B2E39B2A100A6B3E5 /* OPBTableShimmerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250F6B3A2E39B2A100A6B3E5 /* OPBTableShimmerCell.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -29,6 +32,9 @@
 /* Begin PBXFileReference section */
 		0039D284A370E4D4F080FE8D /* Pods-MSShimmer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSShimmer_Example.release.xcconfig"; path = "Target Support Files/Pods-MSShimmer_Example/Pods-MSShimmer_Example.release.xcconfig"; sourceTree = "<group>"; };
 		0F75BBA6CDC7B84F8C6DFD3D /* Pods-MSShimmer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSShimmer_Example.debug.xcconfig"; path = "Target Support Files/Pods-MSShimmer_Example/Pods-MSShimmer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		250F6B362E39B0DE00A6B3E5 /* OPBTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OPBTableViewController.swift; sourceTree = "<group>"; };
+		250F6B382E39B29200A6B3E5 /* OPBTableContentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OPBTableContentCell.swift; sourceTree = "<group>"; };
+		250F6B3A2E39B2A100A6B3E5 /* OPBTableShimmerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OPBTableShimmerCell.swift; sourceTree = "<group>"; };
 		3CF1E414EF83EDC34F3683FA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4890FB732AA5E19B52E604E9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4B9FF94E8E1C6E3FE968369D /* Pods_MSShimmer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MSShimmer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,6 +108,9 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				250F6B362E39B0DE00A6B3E5 /* OPBTableViewController.swift */,
+				250F6B382E39B29200A6B3E5 /* OPBTableContentCell.swift */,
+				250F6B3A2E39B2A100A6B3E5 /* OPBTableShimmerCell.swift */,
 			);
 			name = "Example for MSShimmer";
 			path = MSShimmer;
@@ -304,7 +313,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				250F6B392E39B29200A6B3E5 /* OPBTableContentCell.swift in Sources */,
+				250F6B3B2E39B2A100A6B3E5 /* OPBTableShimmerCell.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				250F6B372E39B0DE00A6B3E5 /* OPBTableViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

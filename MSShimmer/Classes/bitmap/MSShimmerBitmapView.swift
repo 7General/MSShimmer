@@ -14,7 +14,7 @@ open class MSShimmerBitmapView: MSShimmerContainerView {
         
     }
     
-    open override func start() {
+    open override func start(force:Bool = false) {
         startShimmer()
     }
     

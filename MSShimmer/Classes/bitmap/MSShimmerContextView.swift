@@ -13,7 +13,7 @@ public class MSShimmerContextView: MSShimmerContainerView {
         
     }
     
-    open override func start() {
+    open override func start(force:Bool = false) {
         // 不做处理
     }
 }

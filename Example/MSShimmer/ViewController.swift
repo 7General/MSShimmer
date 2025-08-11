@@ -15,23 +15,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("==================ViewController")
-        // 添加注释
-//        MSShimmerAppearance.instance.shimmerCornerRadius = 6
-//        MSShimmerAppearance.instance.duration = 1.5
-//        
-//        MSShimmerAppearance.instance.shimmerColors = [
-//            UIColor(red: 0, green: 0, blue: 0, alpha: 0.102).cgColor,
-//            UIColor(red: 0, green: 0, blue: 0, alpha: 0.3).cgColor,
-//            UIColor(red: 0, green: 0, blue: 0, alpha: 0.102).cgColor
-//        ]
         
-//        view.addSubview(shimmer)
-//        shimmer.snp.makeConstraints { make in
-//            make.top.equalToSuperview().offset(100)
-//            make.centerX.equalToSuperview()
-//            make.width.equalTo(200)
-//            make.height.equalTo(12)
-//        }
+        view.addSubview(shimmer)
+        shimmer.snp.makeConstraints { make in
+            make.top.equalToSuperview().offset(100)
+            make.centerX.equalToSuperview()
+            make.width.equalTo(200)
+            make.height.equalTo(12)
+        }
 //        
 //        view.addSubview(shimmer2)
 //        shimmer2.snp.makeConstraints { make in
@@ -90,29 +81,69 @@ class ViewController: UIViewController {
         //===========================================================
         view.addSubview(subContainerView)
         subContainerView.snp.makeConstraints { make in
-            make.top.equalToSuperview().offset(100)
+            make.top.equalToSuperview().offset(120)
             make.leading.trailing.equalToSuperview().inset(40)
         }
         
+        view.addSubview(titleLab)
+        titleLab.snp.makeConstraints { make in
+            make.top.equalToSuperview().offset(500)
+            make.width.equalTo(200)
+            make.height.equalTo(50)
+            make.centerX.equalToSuperview()
+        }
+        titleLab.isShimmer = true
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.00) {
-            print("============start")
-            self.start()
+        view.addSubview(imageView)
+        imageView.snp.makeConstraints { make in
+            make.top.equalTo(titleLab.snp.bottom).offset(10)
+            make.centerX.equalToSuperview()
+            make.width.height.equalTo(40)
+        }
+        imageView.isShimmer = true
+        
+//        self.view.ms_start()
+        
+        
+        let btn = UIButton(type: .custom)
+        btn.backgroundColor = .red
+//        btn.frame = CGRect(x: 100, y: 100, width: 100, height: 100)
+        btn.addTarget(self, action: #selector(click), for: .touchUpInside)
+        self.view.addSubview(btn)
+        btn.snp.makeConstraints { make in
+            make.top.equalTo(imageView.snp.bottom).offset(10)
+            make.centerX.equalToSuperview()
+            make.width.height.equalTo(100)
         }
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + 30) {
-            print("============stop")
-//            self.stop()
-        }
-        
+//        DispatchQueue.main.asyncAfter(deadline: .now() + 0.00) {
+//            print("============start")
+////            self.start()
+//            self.view.ms_start()
+//        }
+//        
+//        DispatchQueue.main.asyncAfter(deadline: .now() + 30) {
+//            print("============stop")
+////            self.stop()
+//            
+//            self.view.ms_stop()
+//            
+//            self.titleLab.text = "666666"
+//        }
+    }
+    
+    @objc func click() {
+        let table = OPBTableViewController()
+        table.modalPresentationStyle = .fullScreen  // 设置为全屏展示
+        self.present(table, animated: true)
     }
     
     
     
-//    lazy var shimmer: MSShimmerContainerView = {
-//        let it = MSShimmerContainerView()
-//        return it
-//    }()
+    lazy var shimmer: MSShimmerContainerView = {
+        let it = MSShimmerContainerView()
+        return it
+    }()
 //    
 //    lazy var shimmer2: MSShimmerContainerView = {
 //        let it = MSShimmerContainerView()
@@ -161,21 +192,35 @@ class ViewController: UIViewController {
         it.backgroundColor = UIColor.gray.withAlphaComponent(0.3)
         return it
     }()
+    
+    lazy var titleLab: UILabel = {
+        let it = UILabel()
+        it.textColor = .red
+        it.font = UIFont.systemFont(ofSize: 15)
+        return it
+    }()
+    
+    lazy var imageView: UIImageView = {
+        let it = UIImageView()
+        it.layer.cornerRadius = 20
+        it.layer.masksToBounds = true
+        return it
+    }()
 }
 
-extension ViewController:MSShimmerSource {
-    var shimmerContainers: [MSShimmerContainerView] {
-        return [
+//extension ViewController:MSShimmerSource {
+//    var shimmerContainers: [MSShimmerContainerView] {
+//        return [
 //            shimmer,
-//            shimmer2,
-//            shimmer3,
-//            contextView,
-//            shimmer4,
-//            shimmerBoard,
-            subContainerView
-        ]
-    }
-}
+////            shimmer2,
+////            shimmer3,
+////            contextView,
+////            shimmer4,
+////            shimmerBoard,
+//            subContainerView
+//        ]
+//    }
+//}
 
 class OPBSubContainerView:MSShimmerBitmapView {
     
@@ -202,29 +247,24 @@ class OPBSubContainerView:MSShimmerBitmapView {
         it.axis = .vertical
         it.spacing = 10
         it.distribution = .fill
-        it.backgroundColor = .blue
         return it
     }()
     
     
     lazy var item1: OPBContainerItemView = {
         let it = OPBContainerItemView()
-        it.backgroundColor = .yellow
         return it
     }()
     
     lazy var item2: OPBContainerItemView = {
         let it = OPBContainerItemView()
-        it.backgroundColor = .yellow
         return it
     }()
     
     lazy var item3: OPBContainerItemView = {
         let it = OPBContainerItemView()
-        it.backgroundColor = .yellow
         return it
     }()
-    
 }
 
 class OPBContainerItemView:MSView {
@@ -258,7 +298,6 @@ class OPBContainerItemView:MSView {
     
     lazy var icon_sh: MSShimmerContainerView = {
         let it = MSShimmerContainerView()
-        it.backgroundColor = .red
         it.layer.cornerRadius = 20
         it.layer.masksToBounds = true
         return it
@@ -269,7 +308,6 @@ class OPBContainerItemView:MSView {
         it.axis = .vertical
         it.spacing = 10
         it.distribution = .fill
-        it.backgroundColor = .gray
         return it
     }()
     
@@ -317,13 +355,11 @@ class OPBContainerSubItemView:MSView {
     
     lazy var left_sh: MSShimmerContainerView = {
         let it = MSShimmerContainerView()
-        it.backgroundColor = .red
         return it
     }()
     
     lazy var right_sh: MSShimmerContainerView = {
         let it = MSShimmerContainerView()
-        it.backgroundColor = .green
         return it
     }()
 }

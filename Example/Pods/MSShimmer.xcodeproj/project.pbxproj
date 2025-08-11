@@ -7,52 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0CADE1DD2FE08E299E8830851151F690 /* MSShimmerDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6A57C084AA6F0797730044A00886E2 /* MSShimmerDirection.swift */; };
-		2D58F70E5ABD9F9CB6CECF1B073073C3 /* MSShimmer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AB66299ADC47822297286F6C3E5DAC9 /* MSShimmer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		34F5E743BEF96ADD61F326380DE8CE5F /* MSShimmerPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69AA5B31C68CFF65AAA9F4B9BEA151D /* MSShimmerPoint.swift */; };
-		5242215C20001A3DB84D3B76EE83A3B5 /* MSShimmerBitmapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827580AEFC2215C65BB944DD1B6C3932 /* MSShimmerBitmapView.swift */; };
-		5676F20ADA528D695EF0DA56912795C5 /* MSShimmerGradientLayer+shimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A573CF89AC16A49716BFEFC30F7B07EB /* MSShimmerGradientLayer+shimmer.swift */; };
-		831E93F70BFCAF823686C5B07B13D2DC /* MSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0608D65609B1AB74BE914DD615384AF /* MSView.swift */; };
-		8CBFD837DFCBCCA91F59A16DE39BC45D /* MSShimmerContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CA60A8375E6310F33EF8CB3C128380 /* MSShimmerContainerView.swift */; };
-		A189AE1488C8385E429494AF2A2C3B38 /* MSShimmerAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218B63F22709585F714A47BA43671709 /* MSShimmerAppearance.swift */; };
-		A2AA53920C18AB3474E117E51A78C51A /* MSShimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E999563057C0DF03CA55985AA402F28 /* MSShimmerView.swift */; };
-		A9A5785DDB92D917CAC3F4EE1E43F522 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9088E528C3756F8C50F3C1013DBBF6D0 /* Foundation.framework */; };
-		B65D5A89E8E64C0E6241B2798AA10EC7 /* MSShimmerSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6567D5C36C80DAD6F1BE6B0A7B804519 /* MSShimmerSource.swift */; };
-		E654852CFE154DDD00F1E24443485CBC /* MSShimmer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF04FD444B466725031F6ADC387CDA0D /* MSShimmer-dummy.m */; };
-		F9D7B5B7176A4D289F3EC31CA9BED9DB /* MSShimmerContextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1A160790F2232FA3E50B9E6F1FE35B /* MSShimmerContextView.swift */; };
+		059717CE814DAE7F4DCD6105013DEDB7 /* MSShimmer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EAED62CCAAB430481E3352076C4BCF46 /* MSShimmer-dummy.m */; };
+		228876DA724E83BC52DC0B1192541ADF /* UIView+shimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D105C9B7062528B2012F64BC86CE517 /* UIView+shimmer.swift */; };
+		2416ED7EFD8CAF94FB68FE532F09FAAB /* MSShimmerBitmapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43255BC54A92B2FDDC03476AAB8EA20A /* MSShimmerBitmapView.swift */; };
+		5C00F7DB42785A40340CBBB6749876B8 /* MSShimmerDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE2DA29D674DC54FC06FF65E5916C87 /* MSShimmerDirection.swift */; };
+		5F3F45E374BA51815CD842228DFF26BD /* MSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1303B3B4BC19BFEE2E6C9A075C26EF19 /* MSView.swift */; };
+		69DF00996F3C4F21F9A355618A60CA01 /* MSShimmerContextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230EC42B095FF9F4350D897B61972824 /* MSShimmerContextView.swift */; };
+		72C700C9B420406DB4AAB29559F6C922 /* MSShimmerContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662D5AA26D4D388BA3DCCF17A4FA14E5 /* MSShimmerContainerView.swift */; };
+		82DA1796402CE2CD08B42ADC23628A5E /* MSShimmerSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73849649A81AED6F4D16AA8216B9D144 /* MSShimmerSource.swift */; };
+		8A64330ABE0AB4D97D7DE32D03DC63AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9088E528C3756F8C50F3C1013DBBF6D0 /* Foundation.framework */; };
+		C6D3B77B2841DD5741B2EF0FF824D26E /* MSShimmerGradientLayer+shimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B0DA4800355A53F44479584BC08BA2 /* MSShimmerGradientLayer+shimmer.swift */; };
+		D8CC925A516283E17F823634F0F732A3 /* MSShimmerAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = F503B6AD9CF3745CB580EEF74A05043D /* MSShimmerAppearance.swift */; };
+		E340354E949698EDC0F9F4F6FB59C02F /* MSShimmerPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FFBC896832D2DF963A2E1CDD16DB22 /* MSShimmerPoint.swift */; };
+		F81AE37344B530430701524FA3E825C5 /* MSShimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8956EC022345910472F6ECA5723665D3 /* MSShimmerView.swift */; };
+		FBBCD64FD984DAD3DB3DBEE7A0796AAC /* MSShimmer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06864B6B98FEC2CBDCB623782DF3CB65 /* MSShimmer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF7AD946BAEA5C395BBF1088A1ED03E1 /* UITableView+shimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC779317B1413226EEC39AE322E2CEF /* UITableView+shimmer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		03D9286AAB2892264342626D88941CB0 /* MSShimmer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSShimmer-prefix.pch"; sourceTree = "<group>"; };
-		0C28F11C04E7364685D65402105E69A9 /* MSShimmer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSShimmer.debug.xcconfig; sourceTree = "<group>"; };
-		1C1A160790F2232FA3E50B9E6F1FE35B /* MSShimmerContextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MSShimmerContextView.swift; sourceTree = "<group>"; };
-		1D6A57C084AA6F0797730044A00886E2 /* MSShimmerDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSShimmerDirection.swift; path = MSShimmer/Classes/MSShimmerDirection.swift; sourceTree = "<group>"; };
-		218B63F22709585F714A47BA43671709 /* MSShimmerAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSShimmerAppearance.swift; path = MSShimmer/Classes/MSShimmerAppearance.swift; sourceTree = "<group>"; };
-		22CA60A8375E6310F33EF8CB3C128380 /* MSShimmerContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSShimmerContainerView.swift; path = MSShimmer/Classes/MSShimmerContainerView.swift; sourceTree = "<group>"; };
-		2AB66299ADC47822297286F6C3E5DAC9 /* MSShimmer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSShimmer-umbrella.h"; sourceTree = "<group>"; };
-		5BB3761B8D94106EC64930A09018CC93 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		5E313A071DF1A85FB8FB083BB7A2F491 /* MSShimmer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MSShimmer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		5E999563057C0DF03CA55985AA402F28 /* MSShimmerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSShimmerView.swift; path = MSShimmer/Classes/MSShimmerView.swift; sourceTree = "<group>"; };
-		6567D5C36C80DAD6F1BE6B0A7B804519 /* MSShimmerSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSShimmerSource.swift; path = MSShimmer/Classes/MSShimmerSource.swift; sourceTree = "<group>"; };
-		72EAB9BCA1E23B080F61B95AFF063923 /* MSShimmer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSShimmer.release.xcconfig; sourceTree = "<group>"; };
-		827580AEFC2215C65BB944DD1B6C3932 /* MSShimmerBitmapView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MSShimmerBitmapView.swift; sourceTree = "<group>"; };
+		06864B6B98FEC2CBDCB623782DF3CB65 /* MSShimmer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSShimmer-umbrella.h"; sourceTree = "<group>"; };
+		0D105C9B7062528B2012F64BC86CE517 /* UIView+shimmer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+shimmer.swift"; path = "MSShimmer/Classes/UIView+shimmer.swift"; sourceTree = "<group>"; };
+		1303B3B4BC19BFEE2E6C9A075C26EF19 /* MSView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MSView.swift; sourceTree = "<group>"; };
+		230EC42B095FF9F4350D897B61972824 /* MSShimmerContextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MSShimmerContextView.swift; sourceTree = "<group>"; };
+		2E931307B3F442C42A9089D1B9117E5C /* MSShimmer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSShimmer-prefix.pch"; sourceTree = "<group>"; };
+		43255BC54A92B2FDDC03476AAB8EA20A /* MSShimmerBitmapView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MSShimmerBitmapView.swift; sourceTree = "<group>"; };
+		5CC779317B1413226EEC39AE322E2CEF /* UITableView+shimmer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+shimmer.swift"; path = "MSShimmer/Classes/UITableView+shimmer.swift"; sourceTree = "<group>"; };
+		662D5AA26D4D388BA3DCCF17A4FA14E5 /* MSShimmerContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSShimmerContainerView.swift; path = MSShimmer/Classes/MSShimmerContainerView.swift; sourceTree = "<group>"; };
+		73849649A81AED6F4D16AA8216B9D144 /* MSShimmerSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSShimmerSource.swift; path = MSShimmer/Classes/MSShimmerSource.swift; sourceTree = "<group>"; };
+		78E57823975E060DB1BFBBBCA069D52A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7DB037779F4EC3B569C6B0E81139898F /* MSShimmer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MSShimmer-Info.plist"; sourceTree = "<group>"; };
+		8956EC022345910472F6ECA5723665D3 /* MSShimmerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSShimmerView.swift; path = MSShimmer/Classes/MSShimmerView.swift; sourceTree = "<group>"; };
+		89C72182FF1AEB4EECE517FC3AE5956A /* MSShimmer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSShimmer.debug.xcconfig; sourceTree = "<group>"; };
 		9088E528C3756F8C50F3C1013DBBF6D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		A573CF89AC16A49716BFEFC30F7B07EB /* MSShimmerGradientLayer+shimmer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MSShimmerGradientLayer+shimmer.swift"; path = "MSShimmer/Classes/MSShimmerGradientLayer+shimmer.swift"; sourceTree = "<group>"; };
-		AE9CBEF0A00D60F18D9E606B5AAD6A56 /* MSShimmer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MSShimmer.modulemap; sourceTree = "<group>"; };
+		944C3E4B2575FD83438263551958FB32 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A4FFBC896832D2DF963A2E1CDD16DB22 /* MSShimmerPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSShimmerPoint.swift; path = MSShimmer/Classes/MSShimmerPoint.swift; sourceTree = "<group>"; };
+		A561A0E824463C2D58972C7ADD690299 /* MSShimmer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MSShimmer.modulemap; sourceTree = "<group>"; };
 		B498462BD67D1C457622738FA9862E34 /* MSShimmer */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MSShimmer; path = MSShimmer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B97196D63538737B8E38924092266552 /* MSShimmer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MSShimmer-Info.plist"; sourceTree = "<group>"; };
-		C0608D65609B1AB74BE914DD615384AF /* MSView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MSView.swift; sourceTree = "<group>"; };
-		CE8D936B83B63067F8A552B9D0600421 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		DF04FD444B466725031F6ADC387CDA0D /* MSShimmer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MSShimmer-dummy.m"; sourceTree = "<group>"; };
-		E69AA5B31C68CFF65AAA9F4B9BEA151D /* MSShimmerPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSShimmerPoint.swift; path = MSShimmer/Classes/MSShimmerPoint.swift; sourceTree = "<group>"; };
+		C3B0DA4800355A53F44479584BC08BA2 /* MSShimmerGradientLayer+shimmer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MSShimmerGradientLayer+shimmer.swift"; path = "MSShimmer/Classes/MSShimmerGradientLayer+shimmer.swift"; sourceTree = "<group>"; };
+		DBE2DA29D674DC54FC06FF65E5916C87 /* MSShimmerDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSShimmerDirection.swift; path = MSShimmer/Classes/MSShimmerDirection.swift; sourceTree = "<group>"; };
+		E4239EAEAB5A65AEEB72383BC91512FF /* MSShimmer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSShimmer.release.xcconfig; sourceTree = "<group>"; };
+		E6A4E28D6C8D1EF05C6A56790AC36BB4 /* MSShimmer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MSShimmer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EAED62CCAAB430481E3352076C4BCF46 /* MSShimmer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MSShimmer-dummy.m"; sourceTree = "<group>"; };
+		F503B6AD9CF3745CB580EEF74A05043D /* MSShimmerAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSShimmerAppearance.swift; path = MSShimmer/Classes/MSShimmerAppearance.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		83FA044803D82C0CFF5DC732298FC3FC /* Frameworks */ = {
+		083D239B0AC3FCAB68A3323F5E97408D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9A5785DDB92D917CAC3F4EE1E43F522 /* Foundation.framework in Frameworks */,
+				8A64330ABE0AB4D97D7DE32D03DC63AE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,24 +71,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		0C981D37A03C3089D86969E7E748A85E /* MSShimmer */ = {
-			isa = PBXGroup;
-			children = (
-				218B63F22709585F714A47BA43671709 /* MSShimmerAppearance.swift */,
-				22CA60A8375E6310F33EF8CB3C128380 /* MSShimmerContainerView.swift */,
-				1D6A57C084AA6F0797730044A00886E2 /* MSShimmerDirection.swift */,
-				A573CF89AC16A49716BFEFC30F7B07EB /* MSShimmerGradientLayer+shimmer.swift */,
-				E69AA5B31C68CFF65AAA9F4B9BEA151D /* MSShimmerPoint.swift */,
-				6567D5C36C80DAD6F1BE6B0A7B804519 /* MSShimmerSource.swift */,
-				5E999563057C0DF03CA55985AA402F28 /* MSShimmerView.swift */,
-				2EB1B8FF66E405C41459A62D84F0B051 /* bitmap */,
-				52704253354C252C16005E5B6489F5F2 /* Pod */,
-				D54BD76CD712A96219EB5A36C49CEC31 /* Support Files */,
-			);
-			name = MSShimmer;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		15C84D3A809900855061F024B99C43AB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -93,49 +79,69 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2EB1B8FF66E405C41459A62D84F0B051 /* bitmap */ = {
+		27374D389450D0C3C24CEE733BE8FF84 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				827580AEFC2215C65BB944DD1B6C3932 /* MSShimmerBitmapView.swift */,
-				1C1A160790F2232FA3E50B9E6F1FE35B /* MSShimmerContextView.swift */,
-				C0608D65609B1AB74BE914DD615384AF /* MSView.swift */,
+				A561A0E824463C2D58972C7ADD690299 /* MSShimmer.modulemap */,
+				EAED62CCAAB430481E3352076C4BCF46 /* MSShimmer-dummy.m */,
+				7DB037779F4EC3B569C6B0E81139898F /* MSShimmer-Info.plist */,
+				2E931307B3F442C42A9089D1B9117E5C /* MSShimmer-prefix.pch */,
+				06864B6B98FEC2CBDCB623782DF3CB65 /* MSShimmer-umbrella.h */,
+				89C72182FF1AEB4EECE517FC3AE5956A /* MSShimmer.debug.xcconfig */,
+				E4239EAEAB5A65AEEB72383BC91512FF /* MSShimmer.release.xcconfig */,
 			);
-			name = bitmap;
-			path = MSShimmer/Classes/bitmap;
-			sourceTree = "<group>";
-		};
-		52704253354C252C16005E5B6489F5F2 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				CE8D936B83B63067F8A552B9D0600421 /* LICENSE */,
-				5E313A071DF1A85FB8FB083BB7A2F491 /* MSShimmer.podspec */,
-				5BB3761B8D94106EC64930A09018CC93 /* README.md */,
-			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MSShimmer";
 			sourceTree = "<group>";
 		};
 		5F6AF256F215B98514D94C19AF7A5A4F = {
 			isa = PBXGroup;
 			children = (
 				15C84D3A809900855061F024B99C43AB /* Frameworks */,
-				0C981D37A03C3089D86969E7E748A85E /* MSShimmer */,
+				D4A7E8DD8DADB6740CEEBA0B976C7950 /* MSShimmer */,
 				E5E1E1D57FB178205DCD786ABE138A00 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D54BD76CD712A96219EB5A36C49CEC31 /* Support Files */ = {
+		A1FEE7698314DA1E487F88EC0BE65DE6 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				AE9CBEF0A00D60F18D9E606B5AAD6A56 /* MSShimmer.modulemap */,
-				DF04FD444B466725031F6ADC387CDA0D /* MSShimmer-dummy.m */,
-				B97196D63538737B8E38924092266552 /* MSShimmer-Info.plist */,
-				03D9286AAB2892264342626D88941CB0 /* MSShimmer-prefix.pch */,
-				2AB66299ADC47822297286F6C3E5DAC9 /* MSShimmer-umbrella.h */,
-				0C28F11C04E7364685D65402105E69A9 /* MSShimmer.debug.xcconfig */,
-				72EAB9BCA1E23B080F61B95AFF063923 /* MSShimmer.release.xcconfig */,
+				78E57823975E060DB1BFBBBCA069D52A /* LICENSE */,
+				E6A4E28D6C8D1EF05C6A56790AC36BB4 /* MSShimmer.podspec */,
+				944C3E4B2575FD83438263551958FB32 /* README.md */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MSShimmer";
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B1B4B9C29EC3308EA24CCCCAEC59065C /* bitmap */ = {
+			isa = PBXGroup;
+			children = (
+				43255BC54A92B2FDDC03476AAB8EA20A /* MSShimmerBitmapView.swift */,
+				230EC42B095FF9F4350D897B61972824 /* MSShimmerContextView.swift */,
+				1303B3B4BC19BFEE2E6C9A075C26EF19 /* MSView.swift */,
+			);
+			name = bitmap;
+			path = MSShimmer/Classes/bitmap;
+			sourceTree = "<group>";
+		};
+		D4A7E8DD8DADB6740CEEBA0B976C7950 /* MSShimmer */ = {
+			isa = PBXGroup;
+			children = (
+				F503B6AD9CF3745CB580EEF74A05043D /* MSShimmerAppearance.swift */,
+				662D5AA26D4D388BA3DCCF17A4FA14E5 /* MSShimmerContainerView.swift */,
+				DBE2DA29D674DC54FC06FF65E5916C87 /* MSShimmerDirection.swift */,
+				C3B0DA4800355A53F44479584BC08BA2 /* MSShimmerGradientLayer+shimmer.swift */,
+				A4FFBC896832D2DF963A2E1CDD16DB22 /* MSShimmerPoint.swift */,
+				73849649A81AED6F4D16AA8216B9D144 /* MSShimmerSource.swift */,
+				8956EC022345910472F6ECA5723665D3 /* MSShimmerView.swift */,
+				5CC779317B1413226EEC39AE322E2CEF /* UITableView+shimmer.swift */,
+				0D105C9B7062528B2012F64BC86CE517 /* UIView+shimmer.swift */,
+				B1B4B9C29EC3308EA24CCCCAEC59065C /* bitmap */,
+				A1FEE7698314DA1E487F88EC0BE65DE6 /* Pod */,
+				27374D389450D0C3C24CEE733BE8FF84 /* Support Files */,
+			);
+			name = MSShimmer;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		E5E1E1D57FB178205DCD786ABE138A00 /* Products */ = {
@@ -149,11 +155,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		C4ADC277395D62F7F60AB1F8AE52A976 /* Headers */ = {
+		470E66537956897BCCFC00B57FEB90EE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D58F70E5ABD9F9CB6CECF1B073073C3 /* MSShimmer-umbrella.h in Headers */,
+				FBBCD64FD984DAD3DB3DBEE7A0796AAC /* MSShimmer-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,12 +168,12 @@
 /* Begin PBXNativeTarget section */
 		806A4578ADB1AF49D3193DEC4A645005 /* MSShimmer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 31B29C87E01F05C5C69DD0009E59FBE0 /* Build configuration list for PBXNativeTarget "MSShimmer" */;
+			buildConfigurationList = A3323F6A6A45337754318FAD0826091D /* Build configuration list for PBXNativeTarget "MSShimmer" */;
 			buildPhases = (
-				C4ADC277395D62F7F60AB1F8AE52A976 /* Headers */,
-				10FF71B16FEF6014DD0FF82D074857DD /* Sources */,
-				83FA044803D82C0CFF5DC732298FC3FC /* Frameworks */,
-				7F25D1B89ED58EA0089F8E3C8B8A4AB0 /* Resources */,
+				470E66537956897BCCFC00B57FEB90EE /* Headers */,
+				7F6FF89C26441433404690490C9FA6CC /* Sources */,
+				083D239B0AC3FCAB68A3323F5E97408D /* Frameworks */,
+				0D6E2F0BDA7767BA4414889CA9939F5C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -206,7 +212,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7F25D1B89ED58EA0089F8E3C8B8A4AB0 /* Resources */ = {
+		0D6E2F0BDA7767BA4414889CA9939F5C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -216,30 +222,65 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		10FF71B16FEF6014DD0FF82D074857DD /* Sources */ = {
+		7F6FF89C26441433404690490C9FA6CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E654852CFE154DDD00F1E24443485CBC /* MSShimmer-dummy.m in Sources */,
-				A189AE1488C8385E429494AF2A2C3B38 /* MSShimmerAppearance.swift in Sources */,
-				5242215C20001A3DB84D3B76EE83A3B5 /* MSShimmerBitmapView.swift in Sources */,
-				8CBFD837DFCBCCA91F59A16DE39BC45D /* MSShimmerContainerView.swift in Sources */,
-				F9D7B5B7176A4D289F3EC31CA9BED9DB /* MSShimmerContextView.swift in Sources */,
-				0CADE1DD2FE08E299E8830851151F690 /* MSShimmerDirection.swift in Sources */,
-				5676F20ADA528D695EF0DA56912795C5 /* MSShimmerGradientLayer+shimmer.swift in Sources */,
-				34F5E743BEF96ADD61F326380DE8CE5F /* MSShimmerPoint.swift in Sources */,
-				B65D5A89E8E64C0E6241B2798AA10EC7 /* MSShimmerSource.swift in Sources */,
-				A2AA53920C18AB3474E117E51A78C51A /* MSShimmerView.swift in Sources */,
-				831E93F70BFCAF823686C5B07B13D2DC /* MSView.swift in Sources */,
+				059717CE814DAE7F4DCD6105013DEDB7 /* MSShimmer-dummy.m in Sources */,
+				D8CC925A516283E17F823634F0F732A3 /* MSShimmerAppearance.swift in Sources */,
+				2416ED7EFD8CAF94FB68FE532F09FAAB /* MSShimmerBitmapView.swift in Sources */,
+				72C700C9B420406DB4AAB29559F6C922 /* MSShimmerContainerView.swift in Sources */,
+				69DF00996F3C4F21F9A355618A60CA01 /* MSShimmerContextView.swift in Sources */,
+				5C00F7DB42785A40340CBBB6749876B8 /* MSShimmerDirection.swift in Sources */,
+				C6D3B77B2841DD5741B2EF0FF824D26E /* MSShimmerGradientLayer+shimmer.swift in Sources */,
+				E340354E949698EDC0F9F4F6FB59C02F /* MSShimmerPoint.swift in Sources */,
+				82DA1796402CE2CD08B42ADC23628A5E /* MSShimmerSource.swift in Sources */,
+				F81AE37344B530430701524FA3E825C5 /* MSShimmerView.swift in Sources */,
+				5F3F45E374BA51815CD842228DFF26BD /* MSView.swift in Sources */,
+				FF7AD946BAEA5C395BBF1088A1ED03E1 /* UITableView+shimmer.swift in Sources */,
+				228876DA724E83BC52DC0B1192541ADF /* UIView+shimmer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		28C5F419FAA57A7B61DDE5B3E814484F /* Release */ = {
+		0B6D2CC94E114BAFED2AF6ED7A4808A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72EAB9BCA1E23B080F61B95AFF063923 /* MSShimmer.release.xcconfig */;
+			baseConfigurationReference = 89C72182FF1AEB4EECE517FC3AE5956A /* MSShimmer.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MSShimmer/MSShimmer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MSShimmer/MSShimmer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/MSShimmer/MSShimmer.modulemap";
+				PRODUCT_MODULE_NAME = MSShimmer;
+				PRODUCT_NAME = MSShimmer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		69DDFA25D61C395B0C04F0712A3F0EEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4239EAEAB5A65AEEB72383BC91512FF /* MSShimmer.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -270,39 +311,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		3D3D7E5E40B70F58FD706DED1AE86A71 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C28F11C04E7364685D65402105E69A9 /* MSShimmer.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MSShimmer/MSShimmer-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MSShimmer/MSShimmer-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/MSShimmer/MSShimmer.modulemap";
-				PRODUCT_MODULE_NAME = MSShimmer;
-				PRODUCT_NAME = MSShimmer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		EF03919C79907795BC0919CB20DAD84F /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -435,11 +443,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		31B29C87E01F05C5C69DD0009E59FBE0 /* Build configuration list for PBXNativeTarget "MSShimmer" */ = {
+		A3323F6A6A45337754318FAD0826091D /* Build configuration list for PBXNativeTarget "MSShimmer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3D3D7E5E40B70F58FD706DED1AE86A71 /* Debug */,
-				28C5F419FAA57A7B61DDE5B3E814484F /* Release */,
+				0B6D2CC94E114BAFED2AF6ED7A4808A6 /* Debug */,
+				69DDFA25D61C395B0C04F0712A3F0EEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

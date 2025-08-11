@@ -13,9 +13,12 @@ MSShimmer 是一个轻量级的 iOS 骨架屏动画库，用于在内容加载�
 
 - 🎨 **自定义外观** - 支持自定义圆角、动画颜色、动画时长
 - 🚀 **高性能** - 基于 Core Animation 实现，性能优异
-- 📱 **简单易用** - 提供简洁的 API 接口
+- 📱 **简单易用** - 提供简洁的 API 接口，支持UIView扩展
 - 🔧 **高度可配置** - 支持全局配置和局部配置
+- 🛡️ **防重复执行** - 智能状态管理，防止重复启动动画
 - 📦 **CocoaPods 支持** - 易于集成到现有项目中
+- 🎯 **一键开关** - 通过 `isShimmerEnabled` 属性轻松控制骨架屏效果
+- 📏 **智能布局** - 骨架屏自动居中显示，支持自定义默认高度
 
 ## 📋 系统要求
 
@@ -42,6 +45,32 @@ pod install
 ## 🚀 快速开始
 
 ### 基本使用
+
+#### 方式一：使用UIView扩展（推荐）
+
+```swift
+import MSShimmer
+
+class ViewController: UIViewController {
+    
+    @IBOutlet weak var contentView: UIView!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        // 启用骨架屏效果
+        contentView.isShimmerEnabled = true
+        
+        // 开始骨架屏动画
+        contentView.startShimmer()
+        
+        // 停止骨架屏动画
+        // contentView.stopShimmer()
+    }
+}
+```
+
+#### 方式二：传统方式
 
 ```swift
 import MSShimmer
@@ -85,6 +114,25 @@ MSShimmerAppearance.instance.shimmerColors = [
 
 ### 控制动画
 
+#### 使用UIView扩展（推荐）
+
+```swift
+// 启用骨架屏效果
+view.isShimmerEnabled = true
+
+// 开始动画
+view.startShimmer()
+
+// 停止动画
+view.stopShimmer()
+
+// 批量控制
+view.startAllShimmers()
+view.stopAllShimmers()
+```
+
+#### 传统方式
+
 ```swift
 // 开始动画
 shimmerContainer.start()
@@ -95,13 +143,26 @@ shimmerContainer.stop()
 
 ## 📚 API 文档
 
+### UIView 扩展
+
+#### 属性
+
+- `isShimmerEnabled` - 是否启用骨架屏效果（Bool）
+
+#### 方法
+
+- `startShimmer()` - 开始骨架屏动画
+- `stopShimmer()` - 停止骨架屏动画
+- `startAllShimmers()` - 批量开始所有子视图的骨架屏动画
+- `stopAllShimmers()` - 批量停止所有子视图的骨架屏动画
+
 ### MSShimmerContainerView
 
 主要的骨架屏容器视图类。
 
 #### 方法
 
-- `start()` - 开始骨架屏动画
+- `start()` - 开始骨架屏动画（已添加防重复执行保护）
 - `stop()` - 停止骨架屏动画
 
 #### 属性
@@ -117,6 +178,7 @@ shimmerContainer.stop()
 - `shimmerCornerRadius` - 骨架屏圆角半径（默认：6）
 - `shimmerColors` - 骨架屏动画颜色数组
 - `duration` - 动画持续时间（默认：1.5秒）
+- `defaultShimmerHeight` - 骨架屏默认高度（默认：12）
 
 ---
 
@@ -199,7 +261,35 @@ self.stop()
 
 ---
 
-## 🎨 自定义示例
+## 🎨 使用示例
+
+### 简单使用
+
+```swift
+class ViewController: UIViewController {
+    
+    @IBOutlet weak var avatarView: UIView!
+    @IBOutlet weak var nameLabel: UIView!
+    @IBOutlet weak var descriptionView: UIView!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        // 为多个视图启用骨架屏（会自动居中显示）
+        avatarView.isShimmerEnabled = true
+        nameLabel.isShimmerEnabled = true
+        descriptionView.isShimmerEnabled = true
+        
+        // 开始所有骨架屏动画
+        view.startAllShimmers()
+        
+        // 模拟网络请求完成后停止
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+            self.view.stopAllShimmers()
+        }
+    }
+}
+```
 
 ### 自定义颜色
 
@@ -221,6 +311,12 @@ MSShimmerAppearance.instance.duration = 2.0
 
 ```swift
 MSShimmerAppearance.instance.shimmerCornerRadius = 12
+```
+
+### 自定义默认高度
+
+```swift
+MSShimmerAppearance.instance.defaultShimmerHeight = 20
 ```
 
 ## 📱 使用场景

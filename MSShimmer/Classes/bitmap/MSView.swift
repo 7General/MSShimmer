@@ -44,18 +44,16 @@ open class MSView: UIView {
     deinit {
         
     }
-
 }
 
-
-
-public extension UIView {
-    func startShimmer() {
+extension UIView {
+    func startShimmer(force:Bool = false) {
         subviews.forEach { subview in
+            print("startShimmer=============\(subview)")
             if let shimmer = subview as? MSShimmerContainerView {
-                shimmer.start()
+                shimmer.start(force: force)
             } else {
-                subview.startShimmer()
+                subview.startShimmer(force: force)
             }
         }
     }

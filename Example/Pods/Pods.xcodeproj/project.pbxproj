@@ -13,19 +13,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		322A8E6FEDF35B34BE66A68D188A4C66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6F9C2754AC62E4F1100E1CD1F3E89C1 /* MSShimmer.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 806A4578ADB1AF49D3193DEC4A645005;
+			remoteInfo = MSShimmer;
+		};
 		55DCC99159451E9D9188F1481AD32866 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 918410317A2489957A464B45CE1519C9 /* SnapKit.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 6913FCF4B90C224E55FE5C821AFB90D2;
 			remoteInfo = SnapKit;
-		};
-		7A663DDBF2C3E1F7532C6347496E82E0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F6F9C2754AC62E4F1100E1CD1F3E89C1 /* MSShimmer.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 806A4578ADB1AF49D3193DEC4A645005;
-			remoteInfo = MSShimmer;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -161,7 +161,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				C42EB0596DC4A826DF36EF68399C5491 /* PBXTargetDependency */,
+				462D430034E5D4FA07E302DE3032D003 /* PBXTargetDependency */,
 				C9DF2E2734B602D3B1174AC61B29A8EC /* PBXTargetDependency */,
 			);
 			name = "Pods-MSShimmer_Example";
@@ -226,10 +226,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C42EB0596DC4A826DF36EF68399C5491 /* PBXTargetDependency */ = {
+		462D430034E5D4FA07E302DE3032D003 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MSShimmer;
-			targetProxy = 7A663DDBF2C3E1F7532C6347496E82E0 /* PBXContainerItemProxy */;
+			targetProxy = 322A8E6FEDF35B34BE66A68D188A4C66 /* PBXContainerItemProxy */;
 		};
 		C9DF2E2734B602D3B1174AC61B29A8EC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
